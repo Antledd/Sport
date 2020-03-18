@@ -12,12 +12,13 @@ public class TestPronostico {
 		p.add(new Previsione(Risultato.ICS));
 		p.add(new Previsione(Risultato.UNO, Risultato.DUE));
 		
-		System.out.println(p);
+		System.out.println("Problema posto:\n" + p);
 		
 		Espandi e = new Espandi();
-		//List<Schedina> risultato = e.espandi(p);
-		e.espandiPronostico(p);
-		//System.out.println(risultato);
+		List<Schedina> soluzioni = e.espandiPronostico(p);
+		//e.espandiPronostico(p);
+		
+		System.out.println("Soluzione trovata:\n" + soluzioni);
 	
 	}
 
