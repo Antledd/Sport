@@ -3,7 +3,8 @@ package it.polito.tdp.toto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Schedina {
+public class Schedina { // Dice il tutor: sarebbe stato meglio chiamare Colonna la
+	                    //classe, invece di Schedina, ma lasciamola così...
 
 	private int N;
 	

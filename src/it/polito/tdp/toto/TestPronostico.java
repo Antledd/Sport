@@ -14,9 +14,11 @@ public class TestPronostico {
 		
 		System.out.println(p);
 		
-		Expander ex = new Expander();
-		List<Schedina> risultato = ex.expand(p);
-		System.out.println(risultato);
+		Espandi e = new Espandi();
+		//List<Schedina> risultato = e.espandi(p);
+		e.espandiPronostico(p);
+		//System.out.println(risultato);
+	
 	}
 
 }
